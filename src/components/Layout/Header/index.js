@@ -12,8 +12,8 @@ export default class Header extends Component {
 				<p>TODO: UPDATE Header <code>./components/Layout/Header/index.js</code></p>
 				<nav>
 					<ul>
-						<li><IndexLink to="/" activeClassName="active">home</IndexLink></li>
-						<li><NavLink to="/about">about</NavLink></li>
+						<li><IndexLink to="/" activeClassName="active">Sign Up</IndexLink></li>
+						<li><NavLink to="/about">Sign In</NavLink></li>
 					</ul>
 				</nav>
 			</header>

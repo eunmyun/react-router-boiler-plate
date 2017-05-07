@@ -6,4 +6,13 @@ import Routes from "./routes";
 import "./index.css";
 
 const outlet = document.getElementById("root");
-ReactDOM.render(<Router history={browserHistory} routes={Routes} />, outlet);
+
+const App = () => (
+    <div>
+        <Router history={browserHistory} routes={Routes} />
+    </div>
+)
+ReactDOM.render(
+    <App />, 
+    outlet
+);
